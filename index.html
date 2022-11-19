@@ -20,6 +20,13 @@
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
 
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script src="js/vendor/jquery-1.11.2.min.js"></script>
+        <script type="text/javascript">
+            function get(){
+                alert(jQuery("#name").val() + "\n" + jQuery("#email").val() + "\n" + jQuery("#subject").val() + "\n" + jQuery("#message").val());
+            }
+        </script>
+        
     </head>
 
 <body>
@@ -320,15 +327,24 @@
                 <div id="contact-content">
                     <div class="section-heading">
                         <h1>Contact<br><em>zxzzhe</em></h1>
-                        <p>If you have any suggestions,
-                        <br>please contact me.</p>                        
+                        <p>Feel free to contact me,
+                        <br> whenever is comfortable for you.</p>                   
                     </div>
                     <div id="map">
                         <iframe src="https://j.map.baidu.com/93/nwJ" width="100%" height="400px" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
 
+                    <h2 align="center">
+                        <a href="https://github.com/zxzzhe"><i class="fa fa-github"></i></a>
+                        &nbsp;&nbsp;&nbsp;
+                        <a href="img/wechat.png"><i class="fa fa-comments-o"></i></a>
+                        &nbsp;&nbsp;&nbsp;
+                         <a href="mailto:2390814773@qq.com"><i class="fa fa-envelope-o"></i></a>
+                    </h2>
+
+                    <!--
                     <div class="section-content">
-                        <form id="contact" action="#" method="post">
+                        <form id="contact" action="/" method="post">
                             <div class="row">
                                 <div class="col-md-4">
                                   <fieldset>
@@ -352,20 +368,15 @@
                                 </div>
                                 <div class="col-md-12">
                                   <fieldset>
-                                    <button type="submit" id="form-submit" class="btn">Send Message Now</button>
+                                    <button type="submit" id="form-submit" class="btn" onclick="get()">Send Message Now</button>
                                   </fieldset>
                                 </div>
                             </div>
                         </form>
                     </div>
+                    -->
                 </div>
             </section>
-
-            <h2 align="center">
-                <a href="https://github.com/zxzzhe"><i class="fa fa-github"></i></a>
-                <a href="img/wechat.png"><i class="fa fa-comments-o"></i></a>
-                 <a href="mailto:2390814773@qq.com"><i class="fa fa-envelope-o"></i></a>
-            </h2>
 
             <audio controls="controls" loop="loop" autoplay="autoplay" preload="auto" hidden="true">
                 <source src="569b4699-dcee-4f4b-9d86-4cfad1234385.mp4" type="audio/mp4"></source>
@@ -373,6 +384,11 @@
 
             <section class="footer">
                 <p>Copyright &copy; zxzzhe</p>
+                <p>
+                    <a href="https://github.com/zxzzhe/zxzzhe.github.io">Published</a>
+                    with
+                    <a href="https://pages.github.com/">GitHub Pages</a>                    
+                </p>
             </section>
         </div>
 
