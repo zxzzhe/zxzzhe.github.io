@@ -1,0 +1,46 @@
+{
+  "name": "font-awesome-animation",
+  "version": "1.1.1",
+  "dependencies": {},
+  "author": "l-lin",
+  "license": "MIT",
+  "main": "font-awesome-animation.scss",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/l-lin/font-awesome-animation.git"
+  },
+  "bugs": {
+    "url": "https://github.com/l-lin/font-awesome-animation/issues"
+  },
+  "homepage": "https://l-lin.github.io/font-awesome-animation",
+  "devDependencies": {
+    "autoprefixer": "~10.2.3",
+    "clean-css-cli": "~4.3.0",
+    "concat": "~1.0.3",
+    "handlebars": "~4.7.6",
+    "node-sass": "~5.0.0",
+    "postcss": "^8.1.0",
+    "postcss-cli": "~8.3.1",
+    "rimraf": "~3.0.2"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "scripts": {
+    "build": "npm run clean && npm run generate:main && npm run build:sass && npm run build:autoprefixer && npm run build:cleancss && npm run generate:banner && npm run concat:banner",
+    "build:autoprefixer": "postcss --use autoprefixer  --map false --output css/$npm_package_name.css css/$npm_package_name.css",
+    "build:cleancss": "cleancss -o css/$npm_package_name.min.css css/$npm_package_name.css",
+    "build:sass": "node-sass --output-style expanded --source-map true $npm_package_name.scss css/$npm_package_name.css",
+    "clean": "rimraf -f build css",
+    "concat:banner": "concat build/banner.css css/$npm_package_name.css -o css/$npm_package_name.css && concat build/banner.css css/$npm_package_name.min.css -o css/$npm_package_name.min.css",
+    "generate:banner": "mkdir -p build && node scripts/generate_banner.js build/banner.css",
+    "generate:main": "node scripts/generate_main.js scss $npm_package_name.scss",
+    "version": "npm run build && git add -A css",
+    "postversion": "git push && git push --tags"
+  },
+  "files": [
+    "css",
+    "scss",
+    "font-awesome-animation.scss"
+  ]
+}
