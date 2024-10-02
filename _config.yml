@@ -7,13 +7,13 @@ url: https://zxzzhe.github.io
 # Owner/author information
 owner:
   name: Xinzhe Zhang
-  avatar: xzzhang1.jpg
+  avatar: avatar.jpg
   # bio: Two roads diverged in woods, I took the one less traveled by.
   email: zxzzhe02@gmail.com
   cv: https://caihanlin.com/file/CV-HanlinCAI.pdf
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   # twitter: lancecai2002
-  github: zxzzhe
+  github: https://github.com/zxzzhe
   # linkedin: xinzhezhang
   # scholar: https://scholar.google.com/citations?user=8igSoWgAAAAJ
   # bilibili: 
@@ -71,7 +71,7 @@ kramdown:
 
 # disqus settings:
 disqus:
-  shortname: lancecai
+  shortname: xzzhang
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "minimal-mistakes.sublime-project", "minimal-mistakes.sublime-workspace"]
