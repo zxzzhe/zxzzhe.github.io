@@ -8,8 +8,8 @@ layout: page
 
 Here is **Xinzhe Zhang (张信哲)**.
 
-I am currently a 2ed-year graduate student in the department of physics at Nankai University, advised by [Prof.Chen](https://physics.nankai.edu.cn/cj/main.htm#:~:text=2008%E5%B9%B41){style="color: blue;"}.  Before coming to Chen's group, I also graduated from the Nankai University with a B.S. in Physics.
-My research interests lie in nanophonics and PT symmetric optics, and metasurfaces.
+I am currently a 2ed-year graduate student in the department of physics at Nankai University, advised by [Prof.Chen](https://physics.nankai.edu.cn/cj/main.htm#:~:text=2008%E5%B9%B41).  Before coming to Chen's group, I also graduated from the Nankai University with a B.S. in Physics.
+My research interests lie in Nanophotonics, PT symmetric optics, and PT symmetric optics.
 
 If you are interested in any aspect of me, I am always open to discussions and collaborations. Feel free to cantact me.
 
