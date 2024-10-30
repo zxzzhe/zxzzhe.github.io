@@ -12,6 +12,6 @@ title: Notes
 
 > MATLAB code about published articles and Python code about Machine Learning.
 
-[MYNOTES](https://github.com/zxzzhe/zxzzhe.github.io/mynotes)
+[MYNOTES](https://github.com/zxzzhe/zxzzhe.github.io/tree/master/mynotes)
 
 ---

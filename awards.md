@@ -5,7 +5,7 @@ title: Awards
 ---
 
 > Update: 20th Sep 2024
-> 
+
 ## Scholarships
 
 - 2024:  Scholarship of Public Interests and All-Round Capability (8000￥)
