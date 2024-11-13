@@ -10,7 +10,7 @@ title: Publications
 
 ## journal articles
 
-> I currently have 4 peer reviewed publications, 2 of which I am the 1st authors and all of which I am the 1st student authors.
+> I currently have 5 peer reviewed publications, 2 of which I am the 1st author and all of which I am the 1st student author.
 
 - WU LT, **ZHANG XZ**, MING KANG, et al. Broken phase of parity-time symmetry enables efficient superluminal pulse transmission [J]. **OPTICS EXPRESS**, 2024, 32(24): 42489-99.[[DOI]](https://doi.org/10.1364/OE.539755) [[PDF]](https://zxzzhe.github.io/file/article5_oe-32-24-42489.pdf)
 - WU LT, **ZHANG XZ**, GUO TJ, et al. Superluminality in parity-time symmetric Bragg gratings [J]. **PHYSICA SCRIPTA**, 2024, 99(8): 085544.[[DOI]](https://iopscience.iop.org/article/10.1088/1402-4896/ad6358) [[PDF]](file/article4_Wu_2024_Phys._Scr._99_085544.pdf)
