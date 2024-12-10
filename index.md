@@ -17,9 +17,10 @@ If you are interested in any aspect of me, I am always open to discussions and c
 
 ## Research Interests
 
-- Nanophotonics
+- Optics and Photonics
 - Nonlinear optics
-- PT symmetric optics
+- Integrated Photonics
+- Metasurfaces
 
 My current research focuses on theoretical investigation of the electronic structure, transport and optical properties of nanostructures using analytical methods such as Finite-Difference Time-Domain (FDTD), and Finite Element Method (FEM).
 
