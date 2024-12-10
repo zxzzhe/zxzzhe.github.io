@@ -21,6 +21,7 @@ If you are interested in any aspect of me, I am always open to discussions and c
 - Nonlinear optics
 - Integrated Photonics
 - Metasurfaces
+- Polarization imaging
 
 My current research focuses on theoretical investigation of the electronic structure, transport and optical properties of nanostructures using analytical methods such as Finite-Difference Time-Domain (FDTD), and Finite Element Method (FEM).
 
