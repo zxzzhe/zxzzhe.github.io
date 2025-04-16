@@ -24,18 +24,22 @@ x = linspace(-2.5,1.5,N_x); % period for fft
 E0 = 1; omega_PBG = pi*c/L/nb;% reduced wavevector at Brillouin zone edge
 x0 = -550 * d; w0 = 240*d; % Gaussian wavepackage % x0 = -550d
 Ex_G = E0 * exp(-(x-x0).^2./w0^2) .* exp( -1i .* (ns.*omega_PBG)./c .* (x) );
-Ex_G(x>x0) = 0;
+Ex_G(x>x0) = 0; % precursor, this will make pectrum become wider
 I_0 = abs(Ex_G).^2;
 % frequency grid
 N_kn = 1e4+1;
 kn_mid = (ns.*omega_PBG)./c;
-kn = linspace( (1-2e-1)*kn_mid, (1+2e-1)*kn_mid, N_kn );
+kn = linspace( (1-4e-1)*kn_mid, (1+4e-1)*kn_mid, N_kn );
+% kn = linspace( (0)*kn_mid, (2)*kn_mid, N_kn );
+delta_kn = kn(2) - kn(1);
+L_period = 2*pi/delta_kn;
+N_period = L_period/( x(end)-x(1) )*N_x;
 % FFT weight of frequency from -(N/2）*(2pi/period)~ +（N/2）*(2pi/period)
 Fourier = zeros(1,length(kn));  % weight
 for ii = 1:length(x)
     Fourier = Fourier + Ex_G(ii) .* exp(1i .* kn .* x(ii)); % 空间位置为权重，各次谐波进行叠加
 end
-Fourier = Fourier./N_x; % frequency sprectrum
+Fourier = Fourier./N_period; % frequency sprectrum
 % select some frequencies to get main part of Gaussian wave
 select_list = find(abs(Fourier)>1e-9);
 select_Fourier = Fourier(select_list);
